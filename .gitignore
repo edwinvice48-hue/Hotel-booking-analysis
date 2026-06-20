@@ -1,0 +1,39 @@
+# .gitignore for Hotel Booking Analysis
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (customize as needed)
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+
+# Generated files
+results/figures/*.png
+results/figures/*.jpg
+results/reports/*.html
+results/reports/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
